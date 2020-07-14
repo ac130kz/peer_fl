@@ -35,7 +35,7 @@ class PeerOptions {
     this.key = Peer.DEFAULT_KEY,
     this.token,
     this.config = Util.defaultConfig,
-    this.secure,
+    this.secure = true,
     this.pingInterval,
   }) {
     token = util.randomToken();
