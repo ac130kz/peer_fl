@@ -9,7 +9,8 @@ const DEFAULT_CONFIG = {
       'urls': "turn:0.peerjs.com:3478",
       'username': "peerjs",
       'credential': "peerjsp"
-    }
+    },
+    {'urls': "stun:global.stun.twilio.com:3478?transport=udp"}
   ],
   'sdpSemantics': "unified-plan"
 };
